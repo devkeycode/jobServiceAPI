@@ -1,0 +1,29 @@
+{
+  "name": "jobserviceapi",
+  "version": "1.0.0",
+  "description": "This JobService API revolves around the listing jobs for the companies(through posting them) and provide a functionality for job seekers to apply for the active jobs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkeycode/jobServiceAPI.git"
+  },
+  "keywords": [
+    "JobServiceAPI"
+  ],
+  "author": "Lalit Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devkeycode/jobServiceAPI/issues"
+  },
+  "homepage": "https://github.com/devkeycode/jobServiceAPI#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4"
+  }
+}
