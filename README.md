@@ -576,7 +576,7 @@ Sample response body :
 
 ```
 
-#### 12. Applicant can APPLY TO specific job (provided job is Active), by providing job id(passed as a request params),
+#### 13. Applicant can APPLY TO specific job (provided job is Active), by providing job id(passed as a request params),
 
 ---
 
@@ -598,7 +598,7 @@ Sample response body :
 
 NOTE- Owner of the job(hr user who posted the job) and Admin user can update the job details.
 
-#### 13. HR user can get only jobs that are part of the company, to which hr belongs to. It has been done to hide the other company details.
+#### 14. HR user can get only jobs that are part of the company, to which hr belongs to. It has been done to hide the other company details.
 
 ---
 
@@ -631,7 +631,7 @@ Sample response body :
 }
 ```
 
-#### 14. ADMIN user can get all the jobs. NO RESTRICTION ON THE admin.
+#### 15. ADMIN user can get all the jobs. NO RESTRICTION ON THE admin.
 
 ---
 
@@ -689,7 +689,7 @@ Sample response body :
 }
 ```
 
-#### 15. Any request of anytype on invalid endpoint , that doesnt exists, will send response status 404 NOTFOUND with proper response message
+#### 16. Any request of anytype on invalid endpoint , that doesnt exists, will send response status 404 NOTFOUND with proper response message
 
 ---
 
