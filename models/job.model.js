@@ -1,3 +1,5 @@
+//Job->title,description,companybelongTo,[applicantsAppliedTojob],jobStatus,postedByHR(hrUserId)
+
 const mongoose = require("mongoose");
 
 const { jobStatuses } = require("../utils/constants");

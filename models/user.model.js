@@ -1,3 +1,5 @@
+//User schema-> User{name,userId,email,password,userType,userStatus,}
+
 const mongoose = require("mongoose");
 const { userTypes, userStatuses } = require("../utils/constants");
 

@@ -1,3 +1,4 @@
+//Company->name, address, verified,[jobPostedIds],[hruserids](initiallyEmpty)
 const mongoose = require("mongoose");
 const { companyVerificationStatuses } = require("../utils/constants");
 
